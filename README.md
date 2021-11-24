@@ -1,6 +1,6 @@
-# Base Python \[group name\]
+# Base Python Урал 2021.11
 
 
 ### Занятия
 
-- [Урок #. название](lessons/lesson.folder/)
+- [Урок #1. Знакомство с Python, базовые типы данных, условные операторы. Работа с git](lessons/lesson.01/)
