@@ -1,0 +1,19 @@
+@startuml
+
+actor         User                  as user
+participant   "Браузер"             as browser
+participant   "Origin Server"       as origin_server
+participant   "Cross-Origin Server" as cross_origin_server
+'participant   "Веб-Приложение" as app
+
+user -> browser : Посещает страницу\nна origin домене
+browser -> origin_server : Браузер запрашивает\norigin сервер
+browser <- origin_server : Отправляет HTML страницу
+
+browser -> cross_origin_server : Запрашивает ресурсы с Cross-Origin сервера
+browser <- cross_origin_server : Проверяет, что домен в разрешенных,\n\
+устанавливает заголовок, возвращает ответ
+
+user <- browser : Отображает страницу
+
+@enduml

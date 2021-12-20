@@ -1,0 +1,15 @@
+@startuml
+
+actor         User             as user
+participant   "Браузер"        as browser
+participant   "Веб-Сервер"     as server
+participant   "Веб-Приложение" as app
+
+user -> browser : Использует браузер, \nпосещает страницу
+browser -> server : Браузер запрашивает \nВеб-Сервер
+server -> app : Запрашивает веб-приложение
+app -> server : Обрабатывает запрос,\nвозвращает ответ
+server -> browser : Принимает ответ приложения,\nотправляет ответ клиенту (в ответ браузеру)
+browser -> user : Обрабатывает ответ,\nотображает страницу
+
+@enduml

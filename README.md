@@ -12,3 +12,4 @@
 - [Урок #7. SOLID, чистая архитектура; модули и импорты; виртуальное окружение; frozendict](lessons/lesson.07/)
 - [Урок #8. Знакомство с namedtuple, dataclasses, pydantic](lessons/lesson.08/)
 - [Урок #9. HTTP, JSON, REST API, UML, WSGI, Falcon](lessons/lesson.09/)
+- [Урок #10. HTTP заголовки, CORS, Falcon, UML, PlantUML](lessons/lesson.10/)
