@@ -1,0 +1,18 @@
+@startuml
+
+actor        User                      as user
+participant  "Браузер"                 as browser
+participant  "Origin-Сервер"           as origin_server
+participant  "Cross-Origin-Сервер"     as cross_origin_server
+
+user -> browser          : Посещает страницу
+browser -> origin_server : Запрашивает origin сервер
+browser <- origin_server : Origin сервер отдаёт ответ
+user <- browser          : Браузер отображает страницу
+
+browser -> cross_origin_server : Запрашивает Cross Origin Сервер
+browser <- cross_origin_server : Отдаёт ответ браузеру
+
+user <- browser          : Браузер отображает данные
+
+@enduml
