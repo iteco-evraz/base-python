@@ -1,0 +1,20 @@
+@startuml
+
+participant  "Web Server"         as web_server
+participant  "Falcon App"         as falcon
+participant  "Logging Middleware" as logging_middleware
+participant  "Falcon Resource"    as resource
+
+web_server -> falcon  : запрашивает приложение
+falcon -> logging_middleware : выполняет process_request
+falcon -> falcon    : находит нужный resource
+falcon -> logging_middleware : выполняет process_resource
+falcon -> resource    : запрашивает найденный ресурс
+falcon <- resource    : ресурс обрабатывает запрос\n\
+и отдаёт ответ
+falcon -> logging_middleware : выполняет process_response
+web_server <- falcon  : приложение возвращает\n\
+ответ серверу
+
+
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+
+participant  "Web Server"       as web_server
+participant  "Falcon App"       as falcon
+participant  "Falcon Resource"  as resource
+
+web_server -> falcon  : запрашивает приложение
+falcon -> resource    : находит нужный resource\n\
+и запрашивает этот ресурс
+falcon <- resource    : ресурс обрабатывает запрос\n\
+и отдаёт ответ
+web_server <- falcon  : приложение возвращает\n\
+ответ серверу
+
+
+@enduml
