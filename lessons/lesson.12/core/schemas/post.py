@@ -1,0 +1,2 @@
+class PostSchema:
+    pass
