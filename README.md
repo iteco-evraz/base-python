@@ -17,3 +17,4 @@
 - [Урок #12. Области видимости в Python. Создание пакетов в Python](lessons/lesson.12/)
 - [Урок #13. Контейнеризация, Docker](lessons/lesson.13/)
 - [Урок #14. Оркестрация контейнеров, OpenShift. Очереди сообщений, RabbitMQ, Kombu](lessons/lesson.14/)
+- [Урок #15. СУБД. Работа с базами данных. Язык SQL. MySQL, MariaDB](lessons/lesson.15/)
