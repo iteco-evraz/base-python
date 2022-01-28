@@ -18,3 +18,4 @@
 - [Урок #13. Контейнеризация, Docker](lessons/lesson.13/)
 - [Урок #14. Оркестрация контейнеров, OpenShift. Очереди сообщений, RabbitMQ, Kombu](lessons/lesson.14/)
 - [Урок #16. JOINs, UNION, CTE](lessons/lesson.16/)
+- [Урок #17. Агрегация, оконные функции](lessons/lesson.17/)
