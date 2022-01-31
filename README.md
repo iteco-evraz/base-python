@@ -19,3 +19,4 @@
 - [Урок #14. Оркестрация контейнеров, OpenShift. Очереди сообщений, RabbitMQ, Kombu](lessons/lesson.14/)
 - [Урок #15. СУБД. Работа с базами данных. Язык SQL. MySQL, MariaDB](lessons/lesson.15/)
 - [Урок #16. JOINs, UNION, CTE](lessons/lesson.16/)
+- [Урок #17. Агрегация, оконные функции](lessons/lesson.17/)
