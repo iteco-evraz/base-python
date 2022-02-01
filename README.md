@@ -19,3 +19,4 @@
 - [Урок #14. Оркестрация контейнеров, OpenShift. Очереди сообщений, RabbitMQ, Kombu](lessons/lesson.14/)
 - [Урок #16. JOINs, UNION, CTE](lessons/lesson.16/)
 - [Урок #17. Агрегация, оконные функции](lessons/lesson.17/)
+- [Урок #18. Индексы, транзакции, блокировки в SQL](lessons/lesson.18/)
