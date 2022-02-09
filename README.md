@@ -21,3 +21,4 @@
 - [Урок #16. JOINs, UNION, CTE](lessons/lesson.16/)
 - [Урок #17. Агрегация, оконные функции](lessons/lesson.17/)
 - [Урок #18. Индексы, транзакции, блокировки в SQL](lessons/lesson.18/)
+- [Урок #19. ORM: SQLAlchemy; alembic, понимание миграции, автогенерация миграций; cвязи One-To-One и One-To-Many; identity map](lessons/lesson.19/)
